@@ -1,0 +1,8 @@
+package.json
+package-lock.json
+src
+node_modules
+vite.config.ts
+tsconfig.json
+*.mjs
+*.mts
