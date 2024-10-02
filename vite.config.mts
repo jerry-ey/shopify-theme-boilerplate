@@ -7,7 +7,7 @@ export default defineConfig(({ command, mode }) => ({
     emptyOutDir: false,
     minify: false,
     rollupOptions: {
-      input: 'src/*.{tsx,ts,jsx,js}',
+      input: fg.sync(['src/*.{ts,js}', '!src/*.d.ts']),
       output: {
         dir: 'assets',
         entryFileNames: '[name].js',
