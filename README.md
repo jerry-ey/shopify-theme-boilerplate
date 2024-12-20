@@ -22,6 +22,7 @@ If you don't have Shopify CLI installed to your computer, navigate to the [insta
 
 ## Project Structure
 
+```plaintext
 shopify-theme-boilerplate/
 ├── assets/ # Compiled JS, CSS, and other assets
 ├── config/ # Shopify theme settings
@@ -39,6 +40,7 @@ shopify-theme-boilerplate/
 ├── tsconfig.json # TypeScript configuration file
 ├── package.json # Node.js dependencies and scripts
 └── README.md # Project documentation
+```
 
 ## Contributions
 
