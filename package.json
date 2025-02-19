@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "vite:build": "vite build",
-    "vite:dev": "vite",
-    "dev": "npm run vite:dev & shopify theme dev"
+    "vite:dev": "vite dev",
+    "shopify:dev": "shopify theme dev",
+    "dev": "run-p vite:dev shopify:dev"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,7 @@
     "@shopify/prettier-plugin-liquid": "^1.5.0",
     "@tailwindcss/postcss": "^4.0.7",
     "@types/alpinejs": "^3.13.11",
-    "fast-glob": "^3.3.2",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.5.3",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
