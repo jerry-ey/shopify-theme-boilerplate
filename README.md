@@ -46,6 +46,9 @@ shopify-theme-boilerplate/
 └── README.md # Project documentation
 ```
 
+## Resource
+- [vite-shopify-plugin](https://shopify-vite.barrelny.com/)
+
 ## Contributions
 
 Contributions are welcome! Feel free to submit issues or pull requests.

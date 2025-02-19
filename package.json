@@ -5,25 +5,26 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "vite:watch": "vite build --watch",
-    "vite:build": "tsc && vite build",
-    "dev": "npm run vite:watch & shopify theme dev"
+    "vite:build": "vite build",
+    "vite:dev": "vite",
+    "dev": "npm run vite:dev & shopify theme dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@shopify/prettier-plugin-liquid": "^1.5.0",
+    "@tailwindcss/postcss": "^4.0.7",
     "@types/alpinejs": "^3.13.11",
-    "autoprefixer": "^10.4.20",
     "fast-glob": "^3.3.2",
-    "postcss": "^8.4.47",
+    "postcss": "^8.5.3",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
-    "tailwindcss": "^3.4.13",
+    "tailwindcss": "^4.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
-    "vite": "^5.4.8"
+    "vite": "^6.1.1",
+    "vite-plugin-shopify": "^3.2.0"
   },
   "dependencies": {
     "alpinejs": "^3.14.1"
