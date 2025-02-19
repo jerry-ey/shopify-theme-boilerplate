@@ -19,5 +19,5 @@
     // custom rules
     "noUncheckedIndexedAccess": true
   },
-  "include": ["src"]
+  "include": ["frontend/**/*"],
 }
